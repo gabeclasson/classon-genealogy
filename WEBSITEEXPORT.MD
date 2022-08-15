@@ -1,0 +1,55 @@
+### Website export instructions
+A website that conforms to the look used at genealogy.classon.net is exported in the following way: 
+
+- Select Reports > Web Pages > Narrated Web Site
+- Under report options:
+    - Store web pages in .tar.gz archive: no
+    - Destination: ./website
+    - Web site title: Classon Genealogical Database
+    - Filter: Entire Database
+    - Show the relationship between the current person and the active person: yes
+    - Living people: Full names, but data removed
+    - Years from death to consider living: 0
+    - Include data marked private: no
+- Under html options:
+    - Copyright: standard copyright
+    - Stylesheet: Basic-Ash
+    - Navigation menu layout: Horizontal
+    - Citation referents layout: Normal outline style
+    - Include ancestor's tree: yes
+    - Add previous/next: no
+    - This is a secure site (https): yes
+- Under display:
+    - Name format: surname, given suffix
+    - Translation: English (USA)
+    - Date format: Month Day, Year
+    - Gramps ID: Do not include
+    - Sort all children in birth order: yes
+    - Do we display coordinates in the places list?: yes
+    - Sort places references either by date or by name: no
+    - Graph generations: 4
+    - Include narrative notes just after name, gender: yes
+- Under page generation:
+    - Add home page note N0010
+    - Add publisher contact note N0012
+- No extra pages
+- Under images generation: 
+    - Include images and media objects: yes
+    - Include unused images and media objects: yes
+    - Max width of initial image: 800
+    - Max height of initial image: 600
+- No download page
+- Advanced options:
+    - Encoding: UTF-8
+    - Include a column for birth dates on the index pages: yes
+- Include the following pages types:
+    - Family
+    - Event
+    - Places
+    - Sources 
+    - Repository
+    - Statistics
+- Under place map options:
+    - Map service: OpenStreetMap
+    - Include place map on place pages: yes
+- Other inclusion: idk
